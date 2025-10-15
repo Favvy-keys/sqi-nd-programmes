@@ -1,0 +1,1010 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.First {
+    display: flex;
+    /* gap: 250px; */
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+    /* margin-left: 70px; */
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+    z-index: 1;
+    box-shadow: 0px 1px 0px 0px;
+}
+
+.logo {
+    width: 70px;
+}
+
+.ham {
+    display: none;
+}
+
+.Header p {
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    color: #081F89;
+
+}
+
+
+.beyond {
+    width: 100%;
+    border: 1px solid #000059;
+    background-image: linear-gradient(90deg, #000059 25%, rgba(41, 36, 102, 0.55) 100%), url("../../image/imgi_22_sqi-matriculating-students.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.beyondChild {
+    width: 80%;
+    margin: 100px auto;
+    color: white;
+    font-family: sans-serif;
+    line-height: 1.8;
+    font-weight: 600;
+
+
+}
+
+.beyondChild h1 {
+    font-size: 70px;
+    line-height: 1.2;
+    width: 60%;
+}
+
+.beyondChild p {
+    font-size: 30px;
+    margin-block: 20px;
+}
+
+.beyondChild button {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 0;
+    border-radius: 30px;
+
+}
+
+.nd {
+    width: 80%;
+    display: flex;
+    color: white;
+
+}
+
+.nd div {
+    padding: 30px;
+    background-color: #2A2F31;
+    width: 50%;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.nd div:nth-child(1) {
+    color: black;
+    background-color: #B1CCDD;
+    border-top-left-radius: 20px;
+}
+
+.outcast {
+    width: 20%;
+    margin-left: 2px;
+    background-color: #2A2F31;
+
+}
+
+.parentNd {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+}
+
+.secondpage {
+    background-color: #2A2F31;
+    display: flex;
+    width: 100%;
+    gap: 0px;
+    /* padding-bottom: 50px; */
+
+}
+
+.secondpage img {
+    width: 40%;
+    border-bottom-right-radius: 45px;
+    /* margin-left: -200px; */
+}
+
+.sec1-text {
+    background-color: white;
+    color: black;
+    width: 48%;
+    /* border: 2px solid black; */
+    padding: 50px;
+    border-top-right-radius: 25px;
+}
+
+.sec1-text h1 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 53.2px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #333333;
+}
+
+.sec1-text p {
+    width: 95%;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+    color: #666666;
+    padding-top: 20px;
+}
+
+.sec2 {
+    background-color: white;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.sec2 h2 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 53.2px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #333333;
+}
+
+.sec2 p {
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+    color: #666666;
+
+}
+
+.With {
+    color: #ff9900;
+}
+
+.one {
+    border: thin solid black;
+    border-radius: 20px;
+    width: 30%;
+}
+
+.flex2 {
+    display: flex;
+    gap: 30px;
+    width: 70%;
+    margin: 2% 15%;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text {
+    padding: 10px;
+    text-align: left;
+}
+
+.text h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #000059;
+    padding-bottom: 5px;
+}
+
+.text .sub {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19.2px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #666666;
+    padding-bottom: 5px;
+
+}
+
+.text .the {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20.8px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #666666;
+    padding-bottom: 5px;
+
+}
+
+.TheWhole {
+    background-color: #e09900;
+    display: block;
+    margin: 3% 0%;
+    margin-left: 10%;
+    /* padding-left: 50px; */
+    /* border: none; */
+    width: 35%;
+    padding: 6% 5%;
+    /* padding-right: 50px; */
+    /* padding-top: 10px; */
+    /* margin-top: 19px; */
+
+}
+
+h2 {
+    font-family: Archivo, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38.4px;
+    color: #ffffff;
+    font-size: 32px;
+    /* padding-top: 30px; */
+    padding-bottom: 15px;
+}
+
+p {
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 30px;
+    color: #ffffff;
+
+
+}
+
+.SecondPart {
+    display: block;
+    width: 35%;
+    border: none;
+    /* padding: 20px 20px; */
+    /* margin-top: 100px; */
+    margin: 7% 0;
+}
+
+h5 {
+    font-family: Archivo, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 8px;
+
+}
+
+.OtherParagraphs {
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 22.4px;
+    color: #ffffff;
+
+}
+
+.Eligibility h2 {
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 64.2px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #000059;
+    /* padding-bottom: 30px; */
+}
+
+.Eligibility p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23.8px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #666666;
+    padding-top: 10px;
+}
+
+.Eligibility {
+    background-color: white;
+    width: 80%;
+    margin: 2% 10%;
+}
+
+.Eligibility span {
+    font-weight: bold;
+}
+
+.who {
+    margin-top: 5%;
+}
+
+.Enquiries {
+    width: 80%;
+    margin: 5% 10%;
+
+}
+
+.Enquiries p {
+    width: 50%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #666666;
+}
+
+.Enquiries h2 {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 67.2px;
+    font-family: Inter, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #333333;
+}
+
+.circle {
+    /* position: absolute; */
+    width: 80%;
+    /* padding: 0% 7%; */
+}
+
+.comfort {
+    position: absolute;
+    width: 70px;
+    border-radius: 50%;
+    left: 26%;
+    top: 5%;
+}
+
+.uche {
+    position: absolute;
+    width: 70px;
+    border-radius: 50%;
+    top: 25%;
+    left: -3%;
+}
+
+.fine {
+    position: absolute;
+    width: 70px;
+    border-radius: 50%;
+    bottom: 10%;
+    left: 20%;
+}
+
+.peps {
+    width: 90%;
+    padding-bottom: 20px;
+    /* padding: 0% 10%; */
+    /* margin-left: 0; */
+
+}
+.blue {
+    background-color: #000059;
+    width: 100%;
+    /* height: 60vh; */
+    /* display: flex; */
+    gap: 10%;
+    /* padding-top: 5%; */
+}
+.blue2{
+     width: 80%;
+    margin: 0% 10%;
+    /* padding: 0% 15%; */
+    /* padding-bottom: 20px; */
+    display: flex;
+    gap: 20px;
+    position: relative;
+
+}
+
+.join h2 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 53.2px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    /* width: 80%; */
+    /* margin: 5% 15%; */
+}
+
+.join {
+    /* width: 100%; */
+    /* margin: 0% 0% 0% 40%; */
+    padding-top: 90px;
+}
+
+
+.SQI {
+    background-color: #f1f1f1;
+    /* width: 100%; */
+    /* margin: 3% 10%; */
+    padding-bottom: 5%;
+}
+
+.sub {
+    width: 70%;
+    margin: 0% 15%;
+    padding: 5% 0%;
+}
+
+.admission {
+    width: 70%;
+    margin: 0% 15%;
+    padding: 5% 0%;
+}
+
+.SQI h2 {
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 62.4px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #000059;
+}
+
+.SQI h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #333333;
+    font-weight: bold;
+    padding-top: 20px;
+
+}
+
+.SQI p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23.8px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #333333;
+
+}
+
+.Admission {
+    background-color: white;
+    margin-top: 5% 0%;
+
+}
+
+.Admission p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23.8px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #333333;
+
+}
+
+.Admission h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #333333;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.Admission h2 {
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 62.4px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #000059;
+}
+
+.Eligibility h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    font-family: Inter, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #000059;
+    padding-bottom: 20px;
+}
+
+
+
+.footer {
+    margin-top: 70px;
+    width: 80%;
+    margin: 5% 10%;
+
+}
+
+.footer a {
+    color: #2ea6f3;
+    display: block;
+    text-decoration: none;
+    /* width: 90%; */
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.All {
+    display: flex;
+    gap: 50px;
+}
+
+.A1 {
+    width: 15%;
+}
+
+.A2 {
+    width: 15%;
+}
+
+.A3 {
+    width: 15%;
+}
+
+.A4 {
+    width: 15%;
+}
+
+.A5 {
+    width: 15%;
+}
+
+.footer h3 {
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22.8px;
+    color: #00208A;
+}
+
+.footer h4 {
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19.5px;
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.footer p {
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22.4px;
+    color: #666666;
+    margin-top: 20px;
+
+}
+
+.footer h6 {
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23.8px;
+    color: black;
+}
+
+.downpart {
+    background-color: #050044;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.accordion h2 {
+    padding-top: 50px;
+
+}
+
+.accordion {
+    max-width: 80%;
+    margin: 0% 10%;
+    /* border-top: 4px solid #ccc; */
+}
+
+.item {
+    border-bottom: 1px solid #ccc;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 25px 0px;
+    /* font-size: 18px; */
+    /* font-weight: 600; */
+    /* color: #000066; */
+    background: #fff;
+    transition: background 0.1s ease;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    font-family: Inter, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #000059;
+    padding-bottom: 20px;
+}
+
+.question:hover {
+    background: #f5f5f5;
+}
+
+.arrow {
+    transition: transform 0.1s ease;
+    /* padding-left: 5%; */
+
+}
+
+/* Hide answer by default */
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 15px;
+    background: #f9f9f9;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23.8px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-style: normal;
+    color: #666666;
+}
+
+/* Show answer if the radio is checked */
+input[type="radio"]:checked+.question+.answer {
+    padding: 15px;
+    max-height: 500px;
+}
+
+input[type="radio"]:checked+.question .arrow {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    .question {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .answer {
+        font-size: 15px;
+    }
+    .fine{
+        position: absolute;
+        bottom: 10%;
+    }
+}
+
+@media (max-width:320px) {
+    .sec1-text p {
+        width: 100%;
+        font-size: 15px;
+
+    }
+
+    .sec1-text h1 {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .sec1-text {
+        width: 100%;
+    }
+}
+
+@media (max-width:980px) {
+    .nd {
+        flex-direction: column;
+        width: 90%;
+    }
+    .beyondChild button{
+        padding: 15px;
+    } 
+
+    .Admission h2{
+        font-size: 20px;
+    }
+    .Admission h5{
+        font-size: 17px;
+    }
+    .Admission p{
+        font-size: 15px;
+    }
+    .blue2{
+        display: block;
+        flex-direction: column;
+    }
+    .peps{
+        width: 90%;
+        margin: 0% 5%; 
+    }
+    .circle{
+        width: 100%;
+        position: relative;
+    }
+    .comfort{
+        position: absolute;
+        left: 70%;
+    }
+    .fine{
+        position: absolute;
+        bottom: 42%;
+        left: 68%;
+    }
+    .uche{
+       position: absolute;
+       left: 5%; 
+    }
+    .join{
+        width: 100%;
+    }
+    .join h2{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+
+    .secondpage {
+        flex-direction: column;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .Enquiries p{
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .sec1-text {
+        width: 80%;
+        margin: auto;
+        margin: 0 10%;
+
+    }
+
+    .sec1-text h1 {
+        font-size: 25px;
+        line-height: 35px;
+        width: 78%;
+    }
+
+    .sec1-text p {
+        width: 78%;
+    }
+    .sec2 h2{
+        font-size: 20px;
+    }
+    .sec2 p{
+        font-size: 13px;
+    }
+
+    .secondpage img {
+        width: 80%;
+        margin: 0 10%;
+        padding-bottom: 20px;
+    }
+
+    .flex2 {
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: block;
+        width: 80%;
+        margin: 0% 10%;
+    }
+    .accordion h2{
+        font-size: 5px;
+    }
+    .SQI h2{
+        font-size: 20px;
+    }
+    .SQI h5{
+        font-size: 15px;
+    }
+    .SQI p{
+        font-size: 13px;
+    }
+
+    .one {
+        width: 80%;
+        margin: auto;
+        margin: 0 10%;
+        margin-bottom: 15px;
+    }
+    .Eligibility h2{
+        font-size: 16px;
+        width: 100%;
+        padding-top: 15px;
+        /* line-height: 15px; */
+    }
+
+    .orange {
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: block;
+        width: 100%;
+    }
+
+    .TheWhole {
+        width: 80%;
+        margin: auto;
+        margin: 0 10%;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .SecondPart {
+        width: 80%;
+        margin: auto;
+        margin: 0 10%;
+        margin-bottom: 15px;
+    }
+
+    .nd div {
+        width: 100%;
+        padding: 10px;
+
+    }
+
+    .parentNd {
+        width: 90%;
+
+    }
+
+    .beyondChild h1 {
+        width: 100%;
+        font-size: 30px;
+
+    }
+
+    .outcast {
+        width: 10%;
+    }
+
+    .beyondChild {
+        padding-bottom: 60px;
+    }
+
+
+    .All {
+        display: block;
+        /* width: 100%; */
+    }
+
+    .A1 {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .icons {
+        display: flex;
+        margin: auto;
+
+    }
+
+    .A2 {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .A3 {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+
+    }
+
+    .A4 {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .A5 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .downpart {
+        /* width: 99%; */
+        /* margin: auto; */
+    }
+
+    .blue {
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: block;
+        width: 100%;
+        /* margin: 0% 10%;    */
+        /* height: 70vh; */
+    }
+
+    .peps {
+        width: 80%;
+        margin: auto;
+        margin: 0 10%;
+        /* position: absolute; */
+
+    }
+    .comfort{
+
+    }
+
+    .ham {
+        display: block;
+    }
+
+    .Header {
+        display: none;
+    }
+
+    .logo {
+        display: block;
+    }
+
+}
